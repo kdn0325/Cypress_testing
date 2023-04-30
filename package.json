@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^5.17.0",
+    "@cypress/xpath": "^2.0.3",
     "cypress": "^12.6.0"
   }
 }
