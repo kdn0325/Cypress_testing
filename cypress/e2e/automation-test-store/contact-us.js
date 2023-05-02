@@ -16,6 +16,7 @@ describe("Test Store에서 테스팅 자동화",()=> {
         cy.get('#ContactUsFrm_enquiry').type('대량 주문 시 추가 할인을 제공합니까?');
         cy.get("button[title='Submit']").click();
         cy.get('.mb40 > :nth-child(3)').should('have.text','Your enquiry has been successfully sent to the store owner!');
+        cy.log('테스트가 완료되었습니다.')
 
     });
 });
